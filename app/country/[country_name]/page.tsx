@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 
 export default function CountryName({params}:any) {
 
@@ -39,7 +41,7 @@ function findCountry(country_url: string){
 let result = findCountry(params.country_name);
 
   return (
-    <div>
+    <div style={{textAlign: "center", padding: "100px"}}>
       {
         result ? (
           <>
@@ -51,6 +53,13 @@ let result = findCountry(params.country_name);
           <h1>{params.country_name} Not Found</h1>
         )
       }
+           
+           &nbsp;
+           &nbsp;
+           &nbsp;
+
+      <Link href="/"  style={{margin: "10px", borderRadius: "10px", border: "2px solid black", 
+        padding: "10px"}}>Home</Link>
 
     </div>
   );
