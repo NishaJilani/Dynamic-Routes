@@ -1,3 +1,4 @@
+ HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -36,3 +37,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 # Dynamic-Routes
+
+# Dynamic-Routes
+447f0a1a919624a62e3f4f6ef213c0426151e16e
